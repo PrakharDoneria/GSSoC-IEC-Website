@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GSSoC 2025 - Applications LIVE!</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="#" class="logo">GSSoC 2025</a>
+        <nav>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#roles">Roles</a></li>
+            <li><a href="#apply">Apply</a></li>
+          </ul>
+          <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+            <span></span><span></span><span></span>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="breaking-news">
+          <i class="fas fa-fire"></i>
+          <span>BREAKING: GSSoC 2025 Applications Are LIVE!</span>
+          <i class="fas fa-fire"></i>
+        </div>
+        <h1 class="hero-title">GirlScript Summer of Code</h1>
+        <p class="hero-subtitle">3-Month Open Source Sprint • Real Projects • Industry Mentors • Epic Community</p>
+        <div class="hero-buttons">
+          <a href="#apply" class="btn btn-primary">Apply Now</a>
+          <a href="#about" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="floating-elements">
+      <div class="float-element" style="top: 20%; left: 10%;"><i class="fas fa-code"></i></div>
+      <div class="float-element" style="top: 60%; left: 85%;"><i class="fas fa-rocket"></i></div>
+      <div class="float-element" style="top: 40%; left: 5%;"><i class="fas fa-bolt"></i></div>
+      <div class="float-element" style="top: 80%; left: 90%;"><i class="fas fa-bullseye"></i></div>
+      <div class="float-element" style="top: 30%; left: 80%;"><i class="fas fa-star"></i></div>
+      <div class="float-element" style="top: 70%; left: 15%;"><i class="fas fa-heart"></i></div>
+    </div>
+    <div class="particles-container">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>Why GSSoC 2025?</h2>
+      <div class="features-grid">
+        <div class="feature-card"><i class="fas fa-code"></i><h3>Real-World Projects</h3><p>Contribute to actual open-source projects that matter</p></div>
+        <div class="feature-card"><i class="fas fa-users"></i><h3>Industry Mentors</h3><p>Get guided by absolute legends from the tech industry</p></div>
+        <div class="feature-card"><i class="fas fa-trophy"></i><h3>Boost Your GitHub</h3><p>Level up your profile with meaningful contributions</p></div>
+        <div class="feature-card"><i class="fas fa-mobile-alt"></i><h3>Insights by Smartly</h3><p>Track your progress on the brand new app</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="roles" id="roles">
+    <div class="container">
+      <h2>Choose Your Player</h2>
+      <div class="roles-grid">
+        <div class="role-card"><div class="role-icon">🔹</div><h3>Contributor</h3><p>Ship PRs and flex those commits</p></div>
+        <div class="role-card"><div class="role-icon">🔹</div><h3>Mentor</h3><p>Help noobs become devs</p></div>
+        <div class="role-card"><div class="role-icon">🔹</div><h3>Project Admin</h3><p>Run your repo like a boss</p></div>
+        <div class="role-card"><div class="role-icon">🔹</div><h3>Campus Ambassador</h3><p>Rep your college like a pro</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="apply-section" id="apply">
+    <div class="container">
+      <h2>How to Apply Like a Pro</h2>
+      <div class="steps-container">
+        <div class="step"><div class="step-number">1</div><div class="step-content"><h3>Download Insights by Smartly</h3><div class="download-buttons"><a href="https://lnkd.in/dbTPV25k" class="download-btn android"><i class="fab fa-android"></i>Android</a><a href="https://lnkd.in/dPBgKBYq" class="download-btn ios"><i class="fab fa-apple"></i>iOS</a></div></div></div>
+        <div class="step"><div class="step-number">2</div><div class="step-content"><h3>Log in with your email</h3></div></div>
+        <div class="step"><div class="step-number">3</div><div class="step-content"><h3>Hit the Explore tab</h3></div></div>
+        <div class="step"><div class="step-number">4</div><div class="step-content"><h3>Smash the GSSoC 2025 banner</h3></div></div>
+        <div class="step"><div class="step-number">5</div><div class="step-content"><h3>Pick your role</h3></div></div>
+        <div class="step"><div class="step-number">6</div><div class="step-content"><h3>Fill out the form and BOOM — you're in!</h3></div></div>
+      </div>
+      <div class="referral-section">
+        <h3>💸 Referral Code</h3>
+        <div class="referral-code">
+          <input type="text" value="076d5f01-f3f6-4bed-b824-af045362a7b8" readonly id="referralCode">
+          <button onclick="copyReferralCode()" class="copy-btn"><i class="fas fa-copy"></i></button>
+        </div>
+        <p>Use this code during signup for bonus points!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="links-section">
+    <div class="container">
+      <h2>Useful Links</h2>
+      <div class="links-grid">
+        <a href="https://play.google.com/store/apps/details?id=app.smartly.ventures" class="link-card"><i class="fab fa-google-play"></i><span>Android App</span></a>
+        <a href="https://apps.apple.com/in/app/insights-by-smartly/id6745018225" class="link-card"><i class="fab fa-app-store"></i><span>iOS App</span></a>
+        <a href="https://discord.com/invite/sYTtAUBHMT" class="link-card"><i class="fab fa-discord"></i><span>Discord</span></a>
+        <a href="https://chat.whatsapp.com/Fy38DXIXjP5C8ugIdMVXV7?mode=ac_c" class="link-card"><i class="fab fa-whatsapp"></i><span>WhatsApp</span></a>
+        <a href="https://www.linkedin.com/in/prakhar-doneria/" class="link-card"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 GirlScript Summer of Code. Level up your tech game!</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
